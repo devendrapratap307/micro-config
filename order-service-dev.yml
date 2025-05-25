@@ -5,8 +5,8 @@ server:
 message: hello from order dev
 spring:
   datasource:
-    url: jdbc:mem:h2:order_master
-    username: sa
+    url: jdbc:h2:mem:order_master
+    username: root
     password:
     # url: jdbc:mysql://localhost:3306/order_master
     # username: ${DB_USERNAME}
